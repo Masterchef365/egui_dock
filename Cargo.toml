@@ -19,7 +19,7 @@ serde = ["dep:serde", "egui/serde"]
 
 [dependencies]
 #egui = { version = "0.22", default-features = false }
-egui = { git = "https://github.com/Masterchef365/egui.git", branch = "more-serde", features = ["serde"] }
+egui = { git = "https://github.com/Masterchef365/egui.git", branch = "insert-texture", features = ["serde"] }
 serde = { version = "1", optional = true, features = ["derive"] }
 
 duplicate = "1.0"
